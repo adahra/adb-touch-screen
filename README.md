@@ -77,10 +77,10 @@ Edit the script to change:
 ## Troubleshooting
 
 1. Device not recognized:
-   - Verify adb devices shows your device
+   - Verify ```adb devices``` shows your device
    - Check USB debugging is enabled
 2. Permission denied:
-   - Ensure you executed chmod +x on the script
+   - Ensure you executed ```chmod +x``` on the script
 3. ADB not found:
    - Install ADB via your package manager:
      ```bash
